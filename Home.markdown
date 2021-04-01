@@ -4,5 +4,5 @@
 
 title: "Home"
 layout: Home
-permalink: RulesOfGolf/Home.html
+permalink: Home.html
 ---
