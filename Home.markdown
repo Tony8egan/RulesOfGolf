@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "Home"
-layout: Home.html
-permalink: Home
+layout: Home
+permalink: /Home.html
 ---
