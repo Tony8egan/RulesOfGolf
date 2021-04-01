@@ -1,0 +1,329 @@
+:root{
+  --colour1:#44779C;    /* Used for dropdown backg color, nav panels gradient and side nav Button gradient*/
+  --colour2:#44779C;    /* Used for nav panels gradient*/
+  --colour3:#F8F4F9;    /* Used for Text Background in the Rules section*/   
+  --colour4:#2e709f;    /* Used for line break colour and side nav Button gradient*/
+  --colour5:#D9D0DE;    /* Used for Banner Text*/
+  --colour6:#F96900;    /* Used for Boxes*/
+  --colour7:#F8F4F9;    /* Used for Background colour*/
+  --colour8:#000000;    /* Used for rule text colours*/
+  --colour9:#000000;  /* Used for Text*/
+  --colour10:#F8F4F9;    /* Used for Background colour Gradient*/
+  --colour11:#034663;    /* Used for Breadcrumb position*/
+}
+
+
+body {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  background-color: var(--colour7);
+  background-image: linear-gradient(to right, var(--colour7), var(--colour10));
+  
+}
+
+body#rule
+{
+background-color: var(--colour3);
+background-image: linear-gradient( to right, var(--colour3), var(--colour3));
+}
+
+
+
+span{
+  font-size: 8.5px;
+}
+
+a{
+
+  
+  color: var(--colour9);
+  
+}
+
+b
+{
+  font-size: 16px;
+
+}
+
+u{
+  font-size: 15px;
+}
+
+hr{
+  border-color:var(--colour4);
+  border-width: 1px;
+}
+
+p{
+  font-size: 14px;
+  
+}
+
+li{
+  font-size: 14px;
+}
+
+h2
+{
+  color:var(--colour5);
+}
+
+img{
+  width:95%;
+}
+
+.center{
+  position: relative;
+  text-align: center;
+  padding: 30px 0;
+  
+}
+
+
+
+
+.btn {
+  width:70px;
+  height:70px;
+  border: none;
+  color: var(--colour5);
+  padding: 12px 16px;
+  font-size: 14px;
+  border: solid;
+  border-color: var(--colour4);
+  border-width: 1px;
+  border-radius: 50%;
+  /*border-radius: 180px;*/
+  cursor: pointer;
+  background-color: var(--colour4);
+  background-image: linear-gradient(  var(--colour2), var(--colour4));
+ 
+}
+
+.btn2 {
+  width:70px;
+  height:70px;
+  border: none;
+  color: var(--colour5);
+  padding: 12px 16px;
+  font-size: 14px;
+  border: solid;
+  border-color: var(--colour4);
+  border-width: 1px;
+  border-radius: 50%;
+  /*border-radius: 180px;*/
+  cursor: pointer;
+  background-color: var(--colour4);
+  background-image: linear-gradient(  var(--colour11), var(--colour11));
+ 
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.CategoryButtonHomeLeft {
+  
+  height:115px;
+  width: 42%;
+  background-color: var(--colour7);
+  float:left;
+  margin-Top: 10px;
+  margin-bottom: 15px;
+  border: 5px solid var(--colour6);
+
+  
+}
+
+.CategoryButtonHomeRight {
+  height:115px;
+  width: 42%;
+  
+  background-color: var(--colour7);
+  
+  float:right;
+  margin-Top: 10px;
+  margin-bottom: 15px;
+  border: 5px solid var(--colour6);
+}
+
+
+.CategoryButtonSubLeft {
+  
+  height:115px;
+  width: 42%;
+  
+  background-color: var(--colour7);
+  float:left;
+  margin-Top: 10px;
+  margin-bottom: 15px;
+  border: 5px solid var(--colour6);
+  
+}
+
+.CategoryButtonSubRight {
+
+  height:115px;
+  width: 42%;
+  
+  background-color: var(--colour7) ;
+  float:right;
+  margin-Top: 10px;
+  margin-bottom: 15px;
+  border: 5px solid var(--colour6);
+}
+
+
+.Leftsidenav {
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--colour1);
+  overflow-x: hidden;
+  padding-top: 25%;
+  
+  
+  
+}
+
+.Leftsidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+  
+}
+
+.Leftsidenav a:hover {
+  color: var(--colour5);
+}
+
+.main {
+  /* Main section for the home pages*/
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  padding-top: 18%;
+  text-align: center;
+}
+
+.mainSub {
+  /* Main section for the subcategory pages*/
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  padding-top: 18%;
+  
+}
+
+
+
+  /* Hamburger Menu Starts*/
+  .topnav {
+    overflow: hidden;
+    background-color: var(--colour2);
+    position: fixed;
+    width:100%;
+    Left:0;
+    Top:0;
+    text-align:center;
+    z-index: 2;
+    
+   
+  }
+  
+  .topnav #myLinks {
+    display:none;
+    
+    transition: 0.5s;
+  }
+
+
+  
+  .topnav a {
+    color: var(--colour5);
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background:var(--colour1);
+    background-image:linear-gradient(var(--colour2), var(--colour1));
+    position:absolute;
+    right:0;
+    top:0;
+  }
+  
+
+
+
+
+  
+  .Banner {
+    background-color: var(--colour1);
+    background-image: linear-gradient(  var(--colour2), var(--colour1));
+    color:var(--colour5);
+    z-index:2;
+    
+    margin:auto;
+    
+    
+  }
+  
+  
+  .RuleScreenStuff 
+  {
+    color: var(--colour8);
+  }
+
+  .WhiteText
+  {
+    color: var(--colour9);
+  }
+
+
+
+
+
+
+
+
+
+
+  .bar1, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: var(--colour5);
+    
+    margin: 5px 0;
+    transition: 0.2s;
+  }
+  
+  .bar2
+  {
+    width: 35px;
+    height: 4px;
+    background-color: var(--colour5);
+    margin: 5px 0;
+    transition: 0.2s;
+  }
+ 
+  
+ 
+ .change .bar1 {
+  opacity: 0;
+    
+  }
+  
+  
+  .change .bar3 {
+    opacity: 0;
+    
+  }
