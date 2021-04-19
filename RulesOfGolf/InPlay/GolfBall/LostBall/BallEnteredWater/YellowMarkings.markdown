@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "Yellow Markings"
-layout: RulesOfGolf/InPlay/GolfBall/LostBall/YellowMarkings/YellowMarkings
-permalink: InPlay/GolfBall/LostBall/YellowMarkings/YellowMarkings.html
+layout: RulesOfGolf/InPlay/GolfBall/LostBall/BallEnteredWater/YellowMarkings
+permalink: InPlay/GolfBall/LostBall/BallEnteredWater/YellowMarkings.html
 ---
