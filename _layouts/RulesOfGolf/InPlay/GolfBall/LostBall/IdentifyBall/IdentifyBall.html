@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Rules Of Golf</title>
+
+    
+/* Information from Rule 17 */
+   
+  </head>
+  <body id='rule'>
+  
+
+  
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="Banner">Rules Of Golf</a>
+      <div id="myLinks">
+      <a href="/RulesOfGolf/Home">Home</a>
+      <a href="/RulesOfGolf/Settings">Settings</a>
+      <a href="/RulesOfGolf/About">About</a>
+      <a href="/RulesOfGolf/About#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();TFunction(this);toggleNav()">
+        <div class="bar1 bars" style = "margin-top:5px;margin-left:5px;cursor:pointer"></div>
+        <div class="bar2 bars" style = "margin-left:5px;cursor:pointer"></div>
+        <div class="bar3 bars" style = "margin-left:5px;cursor:pointer;"></div>
+      </a>
+    </div>
+  
+  
+    
+
+    <div class="Leftsidenav">
+      
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/Home'"><i class="fas fa-home"></i><br><span>Home</span></button>
+        </div>
+      <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay'"><i class="fas fa-golf-ball"></i><br><span>In Play</span></button>
+        </div>
+        <br>
+        <div class="centerButton">
+          <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/GolfBall'"><i class="fas fa-golf-ball"></i><br><span>Golf Ball</span></button>
+          </div>
+          <br>
+        <div class="centerButton">
+          <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/LostBall/LostBall'"><i class="fas fa-golf-ball"></i><br><span>Lost Ball</span></button>
+          </div>
+<br>
+          <div class="centerButton">
+            <button class="btn2"><i class="fas fa-golf-ball"></i><br><span>Searching for Ball</span></button>
+            </div>
+          
+      
+    </div>
+    
+ <div class = "wrapper">
+    <div class="mainSub">
+        
+      <h5 class ="RuleScreenStuff">Searching for your ball</h5>
+<hr>
+<br>
+        <p class = "collapsible">Allowed Search Time</p>
+        <div class ="TextContent">
+        <p>A player is given up to 3 minutes to search for their ball after each shot. This time starts from the time that you get to the general area of where your ball landed.</p>
+        <br>
+      </div>
+      <p class = "collapsible">Identifying/Verifying golf ball</p>
+      <div class ="TextContent">
+      <p>In some situations you might find a ball and aren't sure if it is yours. You should make every attempt to 
+          identify the ball without touching it.</p>
+      <p> If there is no way of identifying the ball without touching it, you can mark the balls location and rotate it to identify if it is yours. You must not clean the ball and should return it to it's original position</p>
+      <br>
+    </div>
+      <p class = "collapsible">Accidentally moving ball</p>
+      <div class ="TextContent">
+        <p> If you or your playing partners accidentally move your ball while searching for it, there is no penalty but it should be returned to it's original position.</p>
+        <br> 
+      </div>
+      <br>
+        
+      <div class ="footerText">
+      <hr>
+      <p>This information is organized in conjunction with rule 7 of the official rules of golf. For more information on this, see the official rules of golf website <a href="https://www.randa.org/Rog/2019/Rules/The-Rules-of-Golf/Rule-7"> here.</a></p>
+      <br>
+
+
+
+    </div>
+</div>
+       
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          x.style.borderTopStyle = "solid";
+          x.style.borderBottomStyle = "solid";
+          x.style.borderWidth = "6px";
+          x.style.borderColor = "white";
+
+        }
+      }
+      </script>
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var TextContent = this.nextElementSibling;
+      if (TextContent.style.display === "block") {
+        TextContent.style.display = "none";
+      } else {
+        TextContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+<script src="https://kit.fontawesome.com/9ef5afac96.js" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
