@@ -4,5 +4,5 @@
 
 title: "Under Construction"
 layout: RulesOfGolf/Competition/UnderConstruction
-permalink: /UnderConstruction.html
+permalink: /Competition/UnderConstruction.html
 ---
