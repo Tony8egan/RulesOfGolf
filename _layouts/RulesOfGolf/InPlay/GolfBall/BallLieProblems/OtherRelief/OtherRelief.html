@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Rules Of Golf</title>
+
+    
+/* Information from Rule 17 */
+   
+  </head>
+  <body id='rule'>
+  
+
+  
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="Banner">Rules Of Golf</a>
+      <div id="myLinks">
+      <a href="/RulesOfGolf/Home">Home</a>
+      <a href="/RulesOfGolf/Settings">Settings</a>
+      <a href="/RulesOfGolf/About">About</a>
+      <a href="/RulesOfGolf/About#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();TFunction(this);toggleNav()">
+        <div class="bar1 bars" style = "margin-top:5px;margin-left:5px;cursor:pointer"></div>
+        <div class="bar2 bars" style = "margin-left:5px;cursor:pointer"></div>
+        <div class="bar3 bars" style = "margin-left:5px;cursor:pointer;"></div>
+      </a>
+    </div>
+  
+  
+    
+
+    <div class="Leftsidenav">
+      
+        <div class="centerButton">
+          <button class="btn" onclick="location.href='/RulesOfGolf/Home'"><i class="fas fa-home"></i><br><span>Home</span></button>
+          </div>
+        <br>
+        <div class="centerButton">
+          <button class="btn" onclick="location.href='/RulesOfGolf/InPlay'"><i class="fas fa-golf-ball"></i><br><span>In Play</span></button>
+          </div>
+          <br>
+          <div class="centerButton">
+            <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/GolfBall'"><i class="fas fa-golf-ball"></i><br><span>Golf Ball</span></button>
+            </div>
+            <br>
+            <div class="centerButton">
+              <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/BallLieProblems/BallLieProblems'"><i class="fas fa-golf-ball"></i><br><span>Ball lie problems</span></button>
+              </div>
+              <br>
+              <div class="centerButton">
+                <button class="btn2" ><i class="fas fa-golf-ball"></i><br><span>Other Relief</span></button>
+                </div>
+        
+      </div>
+    
+      <div class = "wrapper">
+    <div class="mainSub">
+        
+      <h3 class ="RuleScreenStuff">Other Relief</h3>
+        <p class = "collapsible">Dangerous Animal condition</p>
+        <div class = "TextContent">
+            <br>
+        <li>The player may take relief at the nearest point of complete relief and receive no penalty</li>
+        <li>For purposes of this Rule, the nearest point of complete relief means the nearest point (not nearer the hole) where the dangerous animal condition does not exist.</li>
+       <li>If playing from a bunker, and the player decides to take relief outside the bunker, the player will incur a one shot penalty.</li>
+        <br>
+         </div>
+         <p class = "collapsible">Dangerous Animal condition in Penalty area</p>
+        <div class = "TextContent">
+            <br>
+        <li>The player may take relief at the nearest point of complete relief within the penalty area and receive no penalty</li>
+        <li>The player may take relief at the nearest point of complete relief outside the penalty area and receive a one shot penalty</li>
+        <li>For purposes of this Rule, the nearest point of complete relief means the nearest point (not nearer the hole) where the dangerous animal condition does not exist.</li>
+        <br>
+         </div>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <div class ="footerText">
+      <hr>
+      <p>This information is organized in conjunction with rule 16 of the official rules of golf. For more information on this, see the official rules of golf website <a href="https://www.randa.org/Rog/2019/Rules/The-Rules-of-Golf/Rule-16">here.</a> </p>
+      <br>
+      </div>
+
+
+</div>
+        
+
+
+    </div>
+       
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          x.style.borderTopStyle = "solid";
+          x.style.borderBottomStyle = "solid";
+          x.style.borderWidth = "6px";
+          x.style.borderColor = "white";
+
+        }
+      }
+      </script>
+
+
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var TextContent = this.nextElementSibling;
+        if (TextContent.style.display === "block") {
+          TextContent.style.display = "none";
+        } else {
+          TextContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+<script src="https://kit.fontawesome.com/9ef5afac96.js" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
