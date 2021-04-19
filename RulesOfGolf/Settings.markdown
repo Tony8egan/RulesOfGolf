@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "Settings"
-layout: RulesOfGolf/Settings/Settings
+layout: RulesOfGolf/Settings
 permalink: /Settings.html
 ---
