@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Rules Of Golf</title>
+
+    
+/* Information from Rule 17 */
+   
+  </head>
+  <body id='rule'>
+  
+
+  
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="Banner">Rules Of Golf</a>
+      <div id="myLinks">
+      <a href="/RulesOfGolf/Home">Home</a>
+      <a href="/RulesOfGolf/Settings">Settings</a>
+      <a href="/RulesOfGolf/About">About</a>
+      <a href="/RulesOfGolf/About#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();TFunction(this);toggleNav()">
+        <div class="bar1 bars" style = "margin-top:5px;margin-left:5px;cursor:pointer"></div>
+        <div class="bar2 bars" style = "margin-left:5px;cursor:pointer"></div>
+        <div class="bar3 bars" style = "margin-left:5px;cursor:pointer;"></div>
+      </a>
+    </div>
+  
+  
+    
+
+    <div class="Leftsidenav">
+      
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/Home'"><i class="fas fa-home"></i><br><span>Home</span></button>
+        </div>
+      <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/InPlay'"><i class="fas fa-golf-ball"></i><br><span>In Play</span></button>
+        </div>
+        <br>
+        <div class="centerButton">
+          <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/GolfBall'"><i class="fas fa-golf-ball"></i><br><span>Golf Ball</span></button>
+          </div>
+          <br>
+        <div class="centerButton">
+          <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/LostBall/LostBall'"><i class="fas fa-golf-ball"></i><br><span>Lost Ball</span></button>
+          </div>
+          <br>
+          <div class="centerButton">
+            <button class="btn2" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/LostBall/LostBall'"><i class="fas fa-golf-ball"></i><br><span>Ball in water</span></button>
+            </div>
+          
+      
+    </div>
+    
+    <div class="mainSub">
+        
+      <h4 class ="RuleScreenStuff">Ball entered water</h4>
+<hr>
+      <p>In order to qualify as having lost a ball in a water hazard, you must be 100% certain that the ball is in the hazard. If you are unsure, you must treat the situation as a lost ball. The procedures for a lost golf ball <a href="/RulesOfGolf/InPlay/GolfBall/LostBall/BallEnteredWater/LostBall.html">can be found here.</a></p>
+          
+      <p>If you are certain that your ball entered a water hazzard, you must consider the point where your ball entered the water. Look at the markings that surround the water hazzard as these will determine the relief available to you and where it can be taken from. </p>
+      <br>
+      <p><a href="/RulesOfGolf/InPlay/GolfBall/LostBall/BallEnteredWater/RedMarkings.html" style="background-color:red">See here</a> if your ball entered beyond red stakes or markings</p>
+      <p><a href="/RulesOfGolf/InPlay/GolfBall/LostBall/BallEnteredWater/YellowMarkings.html" style="background-color:yellow">See here</a> if your ball entered beyond yellow stakes or markings.</p>
+      <p><a href="/RulesOfGolf/InPlay/GolfBall/LostBall/BallEnteredWater/WhiteMarkings.html" style="background-color:white">See here</a> if your ball entered beyond white stakes or markings.</p>
+      <br>
+      
+    </div>
+       
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          x.style.borderTopStyle = "solid";
+          x.style.borderBottomStyle = "solid";
+          x.style.borderWidth = "6px";
+          x.style.borderColor = "white";
+
+        }
+      }
+      </script>
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+
+<script src="https://kit.fontawesome.com/9ef5afac96.js" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
