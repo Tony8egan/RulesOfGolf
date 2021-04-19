@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "Lost Ball"
-layout: RulesOfGolf/InPlay/GolfBall/LostBall/LostBall/LostBall
-permalink: InPlay/GolfBall/LostBall/LostBall/LostBall.html
+layout: RulesOfGolf/InPlay/GolfBall/LostBall/BallEnteredWater/LostBall
+permalink: InPlay/GolfBall/LostBall/BallEnteredWater/LostBall.html
 ---
