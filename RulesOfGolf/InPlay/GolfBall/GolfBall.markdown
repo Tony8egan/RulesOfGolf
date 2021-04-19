@@ -4,5 +4,5 @@
 
 title: "Golf Ball"
 layout: RulesOfGolf/InPlay/GolfBall/GolfBall
-permalink: InPlay/GolfBall/GolfBall.html
+permalink: InPlay/GolfBall.html
 ---
