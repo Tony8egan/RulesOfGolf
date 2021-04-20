@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Rules Of Golf</title>
+
+    
+/* Information from Rule 17 */
+   
+  </head>
+  <body id='rule'>
+  
+
+  
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="Banner">Rules Of Golf</a>
+      <div id="myLinks">
+      <a href="/RulesOfGolf/Home">Home</a>
+      <a href="/RulesOfGolf/Settings">Settings</a>
+      <a href="/RulesOfGolf/About">About</a>
+      <a href="/RulesOfGolf/About#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();TFunction(this);toggleNav()">
+        <div class="bar1 bars" style = "margin-top:5px;margin-left:5px;cursor:pointer"></div>
+        <div class="bar2 bars" style = "margin-left:5px;cursor:pointer"></div>
+        <div class="bar3 bars" style = "margin-left:5px;cursor:pointer;"></div>
+      </a>
+    </div>
+  
+  
+    
+
+    <div class="Leftsidenav">
+      
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/Home'"><i class="fas fa-home"></i><br><span>Home</span></button>
+        </div>
+      <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay'"><i class="fas fa-golf-ball"></i><br><span>In Play</span></button>
+        </div>
+        <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/GolfBall'"><i class="fas fa-golf-ball"></i><br><span>Golf Ball</span></button>
+        </div>
+        <br>
+        <div class="centerButton">
+          <button class="btn2"><i class="fas fa-golf-ball"></i><br><span>Mark Ball</span></button>
+          </div>
+          
+      
+    </div>
+    
+
+    <div class ="wrapper">
+    <div class="mainSub">
+        
+      <h4 class ="RuleScreenStuff">Marking & Cleaning Ball</h4>
+      <hr>
+      <br>
+      
+        <p class ="collapsible">When can you lift and clean your ball?</p>
+        <div class = "TextContent">
+          <br>
+        <li>When the ball is on the green</li>
+        <li>when pick and place rules are in place</li>
+        <p>Note: if you lift your ball without marking it, mark its spot incorrectly or make a stroke with a ball-marker left in place, you will be subject to a one shot penalty.</p>
+        <br>
+      </div>
+        <p class ="collapsible">When can you lift your ball without cleaning?</p>
+        <div class = "TextContent">
+        <p>There are some situations where you are allowed to lift your ball but you are NOT allowed to clean the ball. These situations are listed below:</p>
+        <li>Picking up your ball to identify it.</li>
+        <li>Picking up your ball to see if it's damaged or cracked.</li>
+        <li>Picking up your ball because it interferece with play.</li>
+        <li>To see if it lies in condition where relief is allowed - cleaning is not allowed, unless you then take relief under a Rule.</li>
+        <p>Note: if you lift your ball without marking it, mark its spot incorrectly or make a stroke with a ball-marker left in place or clean a ball when you are not entitled to by the rules, you will be subject to a one shot penalty.</p>
+      
+        <br>
+      </div>
+      <p class ="collapsible">How do you mark your ball?</p>
+      <div class = "TextContent">
+        <br>
+        <li>Place a ball-marker right behind or right next to your ball.</li>
+        <li>Hold a club on the ground right behind or right next to your ball.</li>
+        <br>
+        </div>
+        <p class ="collapsible">What if my ball marker blocks another players line on the green?</p>
+        <div class = "TextContent">
+        <p>If your ball marker is blocking the line of another players putt, you can move the marker parallel to it's position in accordance to the hole.</p>
+        <p>Use your putter to temporarilly mark and move the ball marker. Place the tip your putter at the point where your ball marker is and use the opposite end as the new spot(while keeping the putter parallel to the hole position) for your ball marker. Make sure you move the marker back to it's original spot when you are replacing the ball to putt. </p>
+        <br>
+      </div>
+        <p class ="collapsible">What can I use to mark my ball?</p>
+        <div class = "TextContent">
+        <p>There is no penalty for accidentally causing your ball-marker to move. If this happens, you must either replace the ball-maker or replace your ball on its original spot before making your next stroke</p>
+       <br>
+        <b>What if my ball marker is accidentally moved?</b>
+        <p>Ball-markers must be artificial, such as a tee, coin, the toe of your putter, or other small piece of equipment. A natural object like a leaf or twig may not be used as a ball-marker.</p>
+        <br>
+      </div>
+
+      <br>
+           <br>
+         
+           <div class ="footerText">
+           <hr>
+         <p>This information is organized in conjunction with rule 14 of the official rules of golf. For more information on this, see the official rules of golf website <a href="https://www.randa.org/Rog/2019/Rules/The-Rules-of-Golf/Rule-14">here.</a> </p>
+       <br>
+       </div>
+</div>
+
+    </div>
+       
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          x.style.borderTopStyle = "solid";
+          x.style.borderBottomStyle = "solid";
+          x.style.borderWidth = "6px";
+          x.style.borderColor = "white";
+
+        }
+      }
+      </script>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var TextContent = this.nextElementSibling;
+      if (TextContent.style.display === "block") {
+        TextContent.style.display = "none";
+      } else {
+        TextContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+
+<script src="https://kit.fontawesome.com/9ef5afac96.js" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
