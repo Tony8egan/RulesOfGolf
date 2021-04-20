@@ -4,5 +4,5 @@
 
 title: "White Markings"
 layout: RulesOfGolf/InPlay/GolfBall/BallBeyondStakesMarks/Markings/WhiteMarkings
-permalink: InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/Markings/WhiteMarkings.html
+permalink: InPlay/GolfBall/BallBeyondStakesMarks/Markings/WhiteMarkings.html
 ---
