@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "Red Markings"
-layout: RulesOfGolf/InPlay/GolfBall/BallBeyondStakesMarks/RedMarkings/RedMarkings
-permalink: InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/RedMarkings/RedMarkings.html
+layout: RulesOfGolf/InPlay/GolfBall/BallBeyondStakesMarks/Markings/RedMarkings
+permalink: InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/Markings/RedMarkings.html
 ---
