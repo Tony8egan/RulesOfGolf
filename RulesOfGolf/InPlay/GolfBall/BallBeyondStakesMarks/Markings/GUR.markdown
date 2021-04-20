@@ -4,5 +4,5 @@
 
 title: "G.U.R"
 layout: RulesOfGolf/InPlay/GolfBall/BallBeyondStakesMarks/Markings/GUR
-permalink: /InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/Markings/GUR.html
+permalink: InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/Markings/GUR.html
 ---
