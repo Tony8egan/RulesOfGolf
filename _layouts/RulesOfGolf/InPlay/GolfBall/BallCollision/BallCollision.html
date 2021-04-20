@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Rules Of Golf</title>
+
+    
+/* Information from Rule 17 */
+   
+  </head>
+  <body id='rule'>
+  
+
+  
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="Banner">Rules Of Golf</a>
+      <div id="myLinks">
+      <a href="/RulesOfGolf/Home">Home</a>
+      <a href="/RulesOfGolf/Settings">Settings</a>
+      <a href="/RulesOfGolf/About">About</a>
+      <a href="/RulesOfGolf/About#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();TFunction(this);toggleNav()">
+        <div class="bar1 bars" style = "margin-top:5px;margin-left:5px;cursor:pointer"></div>
+        <div class="bar2 bars" style = "margin-left:5px;cursor:pointer"></div>
+        <div class="bar3 bars" style = "margin-left:5px;cursor:pointer;"></div>
+      </a>
+    </div>
+  
+  
+    
+
+    <div class="Leftsidenav">
+      
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/Home'"><i class="fas fa-home"></i><br><span>Home</span></button>
+        </div>
+      <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay'"><i class="fas fa-golf-ball"></i><br><span>In Play</span></button>
+        </div>
+        <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/GolfBall'"><i class="fas fa-golf-ball"></i><br><span>Golf Ball</span></button>
+        </div>
+        <br>
+        <div class="centerButton">
+          <button class="btn2"><i class="fas fa-golf-ball"></i><br><span>Ball collision</span></button>
+          </div>
+          
+      
+    </div>
+    <div class ="wrapper">
+    <div class="mainSub">
+        
+      <h4 class ="RuleScreenStuff">Ball Collision</h4>
+      <hr>
+      <br>
+        <p class="collapsible">Ball in motion hits another players ball.</p>
+        <div class="TextContent">
+        
+        <br>
+        <li>The stroke counts and the ball must be played as it lies.</li>
+        <br>
+        <li>The other players ball is returned to it's original position.</li>
+        <br>
+        <li style="color:red">Exception – Ball Played on Putting Green in Stroke Play:</li><p> If the player’s ball in motion hits another ball at rest on the putting green and both balls were on the putting green before the stroke, the player gets the general penalty (two penalty strokes).</p>
+        <br>
+      </div>
+        
+
+        <p class="collapsible">Ball in motion hits person or animal.</p>
+        <div class="TextContent">
+      <br>
+        <p>If a player’s ball in motion accidentally hits any person or outside influence. There is no penalty to any player.</p>
+        <p>The ball Must Be Played as it Lies. If a player’s ball in motion accidentally hits any person or outside influence, the ball must be played as it lies, except in two situations:</p>
+        <br>
+        <hr>
+        <br>
+        <p><b>1. </b> When Ball Played from Anywhere Except Putting Green Comes to Rest on Any Person, Animal or Moving Outside Influence.</p>
+        <li>When the ball Is anywhere except on putting green. The player must drop the original ball or another ball in this relief area.</li>
+        <p>Relief Area: The estimated point right under where the ball first came to rest on the person, animal or moving outside influence. Allowed one club length relief from this point no closer to the hole and must remain in the same area of the course as the reference point(ie. the rough, fairway etc.).</p>
+        <li>When the ball is on putting green: The player must place the original ball or another ball on the estimated spot right under where the ball first came to rest on the person, animal or moving outside influence.</li>
+        <br>
+        <hr>
+        <br>
+        <p><b>2. </b> When Ball Played from Putting Green Accidentally Hits Any Person, Animal or Movable Obstruction (Including Another Ball in Motion) on Putting Green.</p>
+       <p>The stroke does not count and the original ball or another ball must be replaced on its original spot (which if not known must be estimated) except in these two cases:</p>
+        <li>Ball in Motion Hits Another Ball at Rest or Ball-Marker on Putting Green. The stroke counts and the ball must be played as it lies.</li>
+        <li>Ball in Motion Accidentally Hits Flagstick or Person Attending Flagstick.</li>
+        <br>
+      </div>
+        
+        
+        <p class="collapsible">Ball deliberately deflected or stopped by person.</p>
+        <div class="TextContent">
+        <br>
+        
+        <li>If a player intentionally deflects another players ball they will incur the general penalty - Loss of hole in match play or two penalty strokes in stroke play.</li>
+        <br>
+        
+        <li>This is true whether it is the player’s own ball or a ball played by an opponent or by another player in stroke play.</li>
+        <br>
+        <li>Exception - If there is no reasonable chance a ball can be holed and another player deflects their opponents ball when done either as a concession or when the ball needed to be holed to tie the hole, no penalty occurs.</li>
+        <br>
+        <br>
+      
+        <div class ="footerText">
+        <hr>
+      <p>This information is organized in conjunction with rule 11 of the official rules of golf. For more information on this, see the official rules of golf website <a href="https://www.randa.org/Rog/2019/Rules/The-Rules-of-Golf/Rule-11">here.</a> </p>
+    <br>
+    </div>
+        
+        </div>
+
+    </div>
+       
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          x.style.borderTopStyle = "solid";
+          x.style.borderBottomStyle = "solid";
+          x.style.borderWidth = "6px";
+          x.style.borderColor = "white";
+
+        }
+      }
+      </script>
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+
+<script src="https://kit.fontawesome.com/9ef5afac96.js" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var TextContent = this.nextElementSibling;
+      if (TextContent.style.display === "block") {
+        TextContent.style.display = "none";
+      } else {
+        TextContent.style.display = "block";
+      }
+    });
+  }
+  </script>
