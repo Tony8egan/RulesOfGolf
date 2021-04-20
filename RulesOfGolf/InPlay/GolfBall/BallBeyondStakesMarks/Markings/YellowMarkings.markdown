@@ -4,5 +4,5 @@
 
 title: "Yellow Markings"
 layout: RulesOfGolf/InPlay/GolfBall/BallBeyondStakesMarks/Markings/YellowMarkings
-permalink: InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/Markings/YellowMarkings.html
+permalink: InPlay/GolfBall/BallBeyondStakesMarks/Markings/YellowMarkings.html
 ---
