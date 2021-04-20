@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Rules Of Golf</title>
+
+    
+/* Information from Rule 17 */
+   
+  </head>
+  <body id='rule'>
+  
+
+  
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="Banner">Rules Of Golf</a>
+      <div id="myLinks">
+      <a href="/RulesOfGolf/Home">Home</a>
+      <a href="/RulesOfGolf/Settings">Settings</a>
+      <a href="/RulesOfGolf/About">About</a>
+      <a href="/RulesOfGolf/About#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();TFunction(this);toggleNav()">
+        <div class="bar1 bars" style = "margin-top:5px;margin-left:5px;cursor:pointer"></div>
+        <div class="bar2 bars" style = "margin-left:5px;cursor:pointer"></div>
+        <div class="bar3 bars" style = "margin-left:5px;cursor:pointer;"></div>
+      </a>
+    </div>
+  
+  
+    
+
+    <div class="Leftsidenav">
+      
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/Home'"><i class="fas fa-home"></i><br><span>Home</span></button>
+        </div>
+      <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay'"><i class="fas fa-golf-ball"></i><br><span>In Play</span></button>
+        </div>
+        <br>
+      <div class="centerButton">
+        <button class="btn" onclick="location.href='/RulesOfGolf/InPlay/GolfBall/GolfBall'"><i class="fas fa-golf-ball"></i><br><span>Golf Ball</span></button>
+        </div>
+        <br>
+        <div class="centerButton">
+          <button class="btn2"><i class="fas fa-golf-ball"></i><br><span>Ball Moved</span></button>
+          </div>
+          
+      
+    </div>
+    
+
+    <div class ="wrapper">
+    <div class="mainSub">
+        
+      <h4 class ="RuleScreenStuff">Ball moved from place of rest</h4>
+      <hr>
+      <br>
+        <p class = "collapsible">Ball moved by natural force</p>
+        <div class = "TextContent">
+            <br>
+        <li>There is no penalty</li>
+        <li>The ball must be played from it's new spot</li>
+        <p style="color:red">Exception: Ball on Putting Green Must Be Replaced If It Moves After Having Already Been Lifted and Replaced: If the player’s ball on the putting green moves after the player had already lifted and replaced the ball on the spot from which it moved:</p>
+        <li>The ball must be replaced on its original spot (which if not known must be estimated) </li>
+        <li>This is true no matter what caused it to move (including natural forces).</li>
+        <p style="color:red">Penalty for Playing Incorrectly Substituted Ball or Playing Ball from a Wrong Place in Breach of Rule 9.3: General Penalty</p>
+        <br>
+         </div>
+         
+         <p class = "collapsible">Ball moved during back swing or grounding club</p>
+         <div class = "TextContent">
+             <br>
+         <li>If the player caused the ball to move they will receive a one stroke penalty.</li>
+         
+         <br>
+          </div>
+          
+          <p class = "collapsible">Ball intentionally moved by other player in match play</p>
+          <div class = "TextContent">
+              <br>
+          <li>If a player deliberately moves their opponents ball they will receive a one stroke penalty unless:</li>
+          <li>When conceding a stroke, a hole or the match to the player, or</li>
+          <li>At the player’s request.</li>
+          <br>
+           </div>
+           
+           <p class = "collapsible">Ball intentionally moved by opponent in stroke play</p>
+          <div class = "TextContent">
+              <br>
+              <li>If a player deliberately moves their opponents ball they will receive a one stroke penalty</li>
+          <li>There is no penalty for the player who's ball was moved.</li>
+          <li>The ball must be replaced on its original spot (which if not known must be estimated)</li>
+          
+          <br>
+           </div>
+           
+           <p class = "collapsible">Ball accidentally moved when searching for it</p>
+          <div class = "TextContent">
+              <br>
+              <li>There is no penalty if the player’s ball is accidentally moved by the player, opponent or anyone else while trying to find or identify it.</li>
+          <li>
+            Ball Accidentally Moved in Trying to Find or Identify It
+            There is no penalty if the player’s ball is accidentally moved by the player, opponent or anyone else while trying to find or identify it.
+            
+            If this happens, the ball must be replaced on its original spot (which if not known must be estimated) </li>
+         
+          <br>
+           </div>
+           <br>
+           <br>
+         
+           <div class ="footerText">
+           <hr>
+         <p>This information is organized in conjunction with rule 9 of the official rules of golf. For more information on this, see the official rules of golf website <a href="https://www.randa.org/Rog/2019/Rules/The-Rules-of-Golf/Rule-9">here.</a> </p>
+       <br>
+       </div>
+           
+
+
+</div>
+    </div>
+       
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          x.style.borderTopStyle = "solid";
+          x.style.borderBottomStyle = "solid";
+          x.style.borderWidth = "6px";
+          x.style.borderColor = "white";
+
+        }
+      }
+      </script>
+
+
+
+<script>
+  function TFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var TextContent = this.nextElementSibling;
+        if (TextContent.style.display === "block") {
+          TextContent.style.display = "none";
+        } else {
+          TextContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+<script src="https://kit.fontawesome.com/9ef5afac96.js" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
