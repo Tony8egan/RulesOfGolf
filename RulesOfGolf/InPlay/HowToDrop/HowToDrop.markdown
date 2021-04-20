@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "In Play"
-layout: RulesOfGolf/InPlay/HowToDrop
-permalink: InPlay/HowToDrop.html
+layout: RulesOfGolf/InPlay/HowToDrop/HowToDrop
+permalink: InPlay/HowToDrop/HowToDrop.html
 ---
