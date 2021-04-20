@@ -4,5 +4,5 @@
 
 title: "Red Markings"
 layout: RulesOfGolf/InPlay/GolfBall/BallBeyondStakesMarks/Markings/RedMarkings
-permalink: InPlay/GolfBall/GolfBall/BallBeyondStakesMarks/Markings/RedMarkings.html
+permalink: InPlay/GolfBall/BallBeyondStakesMarks/Markings/RedMarkings.html
 ---
