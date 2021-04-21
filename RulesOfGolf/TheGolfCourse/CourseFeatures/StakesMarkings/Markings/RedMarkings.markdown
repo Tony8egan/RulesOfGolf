@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "Red Markings"
-layout: RulesOfGolf/TheGolfCourse/StakesMarkings/Markings/RedMarkings
-permalink: /TheGolfCourse/StakesMarkings/Markings/RedMarkings.html
+layout: RulesOfGolf/TheGolfCourse/CourseFeatures/StakesMarkings/Markings/RedMarkings
+permalink: /TheGolfCourse/CourseFeatures/StakesMarkings/Markings/RedMarkings.html
 ---
