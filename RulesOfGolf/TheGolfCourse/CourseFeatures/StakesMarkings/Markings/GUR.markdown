@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "GUR"
-layout: RulesOfGolf/TheGolfCourse/StakesMarkings/Markings/GUR
-permalink: /TheGolfCourse/StakesMarkings/Markings/GUR.html
+layout: RulesOfGolf/TheGolfCourse/CourseFeatures/StakesMarkings/Markings/GUR
+permalink: /TheGolfCourse/CourseFeatures/StakesMarkings/Markings/GUR.html
 ---
