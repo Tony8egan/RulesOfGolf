@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: "White Markings"
-layout: RulesOfGolf/TheGolfCourse/StakesMarkings/Markings/WhiteMarkings
-permalink: /TheGolfCourse/StakesMarkings/Markings/WhiteMarkings.html
+layout: RulesOfGolf/TheGolfCourse/CourseFeatures/StakesMarkings/Markings/WhiteMarkings
+permalink: /TheGolfCourse/CourseFeatures/StakesMarkings/Markings/WhiteMarkings.html
 ---
