@@ -351,7 +351,7 @@ border-radius: 3px;
 {
   /* Used for the buttons that expand rule information on the rule pages*/
   background-color: var(--colour6);
-  background-image: linear-gradient( var(--colour6), var(--colour12));
+  background-image: linear-gradient(#F96900, #ff9b20);
   width: 100%;
   border-radius: 10px;
   border-style: solid;
