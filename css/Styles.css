@@ -116,7 +116,7 @@ img{
   /*border-radius: 180px;*/
   cursor: pointer;
   background-color: var(--colour4);
-  background-image: linear-gradient (var(--colour2), var(--colour4));
+  background-image: linear-gradient (#44779C, #2e709f);
  
 }
 
@@ -133,8 +133,7 @@ img{
   border-radius: 50%;
   /*border-radius: 180px;*/
   cursor: pointer;
-  background-color: var(--colour4);
-  background-image: linear-gradient(var(--colour11), var(--colour11));
+  background-color: var(--colour11);
   
  
 }
