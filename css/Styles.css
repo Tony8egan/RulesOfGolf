@@ -19,7 +19,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   
   background-color: var(--colour7);
-  background-image: linear-gradient(to right, var(--colour7), var(--colour10));
+  background-image: linear-gradient(to right, red, blue);
   
 }
 
