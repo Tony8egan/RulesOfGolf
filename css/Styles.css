@@ -19,14 +19,14 @@ body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   
   background-color: var(--colour7);
-  background-image: linear-gradient(to right, red, blue);
+  
   
 }
 
 body#rule
 {
 background-color: var(--colour3);
-background-image: linear-gradient(to right, red, blue);
+
 }
 
 
@@ -116,7 +116,7 @@ img{
   /*border-radius: 180px;*/
   cursor: pointer;
   background-color: var(--colour4);
-  background-image: linear-gradient(  var(--colour2), var(--colour4));
+  background-image: linear-gradient(  (var(--colour2)), (var(--colour4)));
  
 }
 
