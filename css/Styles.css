@@ -116,7 +116,7 @@ img{
   /*border-radius: 180px;*/
   cursor: pointer;
   background-color: var(--colour4);
-  background-image: linear-gradient(  (var(--colour2)), (var(--colour4)));
+  background-image: linear-gradient (var(--colour2), var(--colour4));
  
 }
 
@@ -351,7 +351,7 @@ border-radius: 3px;
 {
   /* Used for the buttons that expand rule information on the rule pages*/
   background-color: var(--colour6);
-  background-image: linear-gradient( var(--colour6) , var(--colour12));
+  background: linear-gradient( var(--colour6), var(--colour12));
   width: 100%;
   border-radius: 10px;
   border-style: solid;
@@ -361,7 +361,7 @@ border-radius: 3px;
   height:60px;
   display: flex;
   align-items: center;
-  color: var(colour9);
+  color: var(--colour9);
 }
 
 .footerText
