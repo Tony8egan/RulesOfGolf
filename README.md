@@ -20,6 +20,14 @@ https://www.liveabout.com/what-is-a-divot-1560823#:~:text=In%20golf%2C%20a%20%22
 
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
 
+https://www.w3schools.com/howto/howto_css_menu_icon.asp
+
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+
+
+
+
+
 Images: 
 
 https://brokensoundproperties.com/wp-content/uploads/2020/01/golf-ball.jpg
