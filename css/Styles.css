@@ -85,7 +85,8 @@ img{
 }
 
 .center{
-  /* Used to center information */
+  /* Used to for the tile text */
+  /* Centres the text and colors the background*/
   background-color:var(--colour6) ;
   display:inline-block;
   text-align: center;
@@ -125,6 +126,7 @@ img{
 
 .btn2 {
   /* Used for the breadcrumb nav button that represents current page*/
+  /* Appears as darker color*/
   width:70px;
   height:70px;
   border: none;
@@ -151,7 +153,7 @@ img{
 }
 
 .CategoryButtonHomeLeft {
-  /* Used for creating and positioning the buttons on the left hand side of the home screen*/
+  /* Used for creating and positioning the button tiles on the left hand side of the home screen*/
   height:135px;
   width: 42%;
   background-color: var(--colour7);
@@ -164,7 +166,7 @@ border-radius: 3px;
 }
 
 .CategoryButtonHomeRight {
-  /* Used for creating and positioning the buttons on the right hand side of the home screen*/
+  /* Used for creating and positioning the button tiles on the right hand side of the home screen*/
   height:135px;
   width: 42%;
   
@@ -179,7 +181,7 @@ border-radius: 3px;
 
 
 .CategoryButtonSubLeft {
-  /* Used for creating and positioning the buttons on the left hand side of the rule category screen*/
+  /* Used for creating and positioning the button tiles on the left hand side of the rule category screen*/
   height:115px;
   width: 42%;
   
@@ -192,7 +194,7 @@ border-radius: 3px;
 }
 
 .CategoryButtonSubRight {
-/* Used for creating and positioning the buttons on the right hand side of the rule category screen*/
+/* Used for creating and positioning the button tiles on the right hand side of the rule category screen*/
   height:115px;
   width: 42%;
   
@@ -245,6 +247,7 @@ border-radius: 3px;
 
 .mainSub {
   /* Main section for the subcategory pages*/
+  /* Dedicates space on the left to the breadcrumb*/
   margin-left: 20%; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
@@ -256,7 +259,7 @@ border-radius: 3px;
 
   /* Hamburger Menu Starts*/
   .topnav {
-    /* Used for the top nav menu */
+    /* Used for the side nav menu that expands when hamburger menu is selected*/
     overflow: hidden;
     background-color: var(--colour2);
     position: fixed;
@@ -271,6 +274,8 @@ border-radius: 3px;
   
   .topnav #myLinks {
     /* Used for the transition when the hamburger button is pressed*/
+    /* When the javascript detects a click on the hamburger, the nav becomes visisble*/
+    /*Nav is hidden when the page is instatiated*/
     display:none;
     
     transition: 0.5s;
