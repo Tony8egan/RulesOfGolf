@@ -24,7 +24,13 @@ https://www.w3schools.com/howto/howto_css_menu_icon.asp
 
 https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
 
+https://www.youtube.com/watch?v=4L-fhwbkuJ8
 
+https://www.youtube.com/watch?v=snwV_8KeDjE
+
+https://www.youtube.com/watch?v=EH-PbM-B0Ts
+
+https://www.youtube.com/watch?v=g789PvvW4qo
 
 
 
