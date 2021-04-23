@@ -1,4 +1,24 @@
-# RulesOfGolf - Image Reference
+# RulesOfGolf - References
+
+References
+
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed
+
+https://www.w3schools.com/css/css_rwd_intro.asp
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-flex_btn
+
+Font Awesome 
+https://fontawesome.com/
+
+https://www.leedsgolfcentre.com/blog/the-new-golf-rules-you-need-to-know
+
+https://www.liveabout.com/what-is-a-divot-1560823#:~:text=In%20golf%2C%20a%20%22divot%22,where%20the%20ball%20was%20resting.
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
 
 Images: 
 
